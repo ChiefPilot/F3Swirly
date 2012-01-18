@@ -1,28 +1,23 @@
 F3Swirly
 ========
 
-Welcome!
---------
-This demo contains the "swirly" control for iOS.   It has been
-tested on iOS 4.x and 5.x on iTouch, iPhone, and iPad devices.
+Background
+----------
+I needed a control which had visual aspects of both an  activity 
+indicator as well as an annunciator.   Not finding one, I decided to
+build one to statisfy that need by providing textual, color, and 
+animated feedback to the user.
+
+The control uses Quartz 2D and Core Animation to provide a reasonable
+level of performance with virtually no CPU overhead required for the 
+animation.    The number of segments, segment color, segment thickness, 
+rotation rate, and text can all be customized.   
 
 ![Screenshot](https://raw.github.com/ChiefPilot/F3Swirly/master/F3Swirly.png "Screenshot of Component Demo App")
 
 If you find this control of use (or find bugs), I'd love to hear
 from you!   Drop a note to brad@flightiii.com with questions, comments, 
 or dissenting opinions.
-
-
-Background
-----------
-I needed a control which had visual aspects of both an  activity 
-indicator as well as an annunciator.    This control satisfies that
-need by providing, textual, color, and animated feedback.  
-
-The control uses Quartz 2D and Core Animation to provide a reasonable
-level of performance with virtually no CPU overhead required for the 
-animation.    The number of segments, segment color, segment thickness, 
-rotation rate, and text can all be customized.   
 
 
 Usage
