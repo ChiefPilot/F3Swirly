@@ -18,6 +18,9 @@
 		C62764BC14C5E90300074ACD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C62764BA14C5E90300074ACD /* ViewController_iPad.xib */; };
 		C62764C714C5E96600074ACD /* F3Swirly.m in Sources */ = {isa = PBXBuildFile; fileRef = C62764C614C5E96600074ACD /* F3Swirly.m */; };
 		C62764D314C5ED5B00074ACD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62764D214C5ED5B00074ACD /* QuartzCore.framework */; };
+		C6D4757914C685FF00D65E51 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D4757814C685FF00D65E51 /* Icon.png */; };
+		C6D4757C14C6860700D65E51 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D4757B14C6860700D65E51 /* Icon@2x.png */; };
+		C6D4757E14C6866F00D65E51 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C6D4757D14C6866F00D65E51 /* Icon-72.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,9 @@
 		C62764C614C5E96600074ACD /* F3Swirly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3Swirly.m; sourceTree = "<group>"; };
 		C62764CC14C5ED3A00074ACD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		C62764D214C5ED5B00074ACD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C6D4757814C685FF00D65E51 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		C6D4757B14C6860700D65E51 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		C6D4757D14C6866F00D65E51 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 		C627649314C5E90200074ACD = {
 			isa = PBXGroup;
 			children = (
+				C6D4757D14C6866F00D65E51 /* Icon-72.png */,
+				C6D4757B14C6860700D65E51 /* Icon@2x.png */,
+				C6D4757814C685FF00D65E51 /* Icon.png */,
 				C62764D214C5ED5B00074ACD /* QuartzCore.framework */,
 				C62764CC14C5ED3A00074ACD /* CoreMotion.framework */,
 				C62764A814C5E90300074ACD /* F3SwirlyDemo */,
@@ -165,6 +174,9 @@
 				C62764AD14C5E90300074ACD /* InfoPlist.strings in Resources */,
 				C62764B914C5E90300074ACD /* ViewController_iPhone.xib in Resources */,
 				C62764BC14C5E90300074ACD /* ViewController_iPad.xib in Resources */,
+				C6D4757914C685FF00D65E51 /* Icon.png in Resources */,
+				C6D4757C14C6860700D65E51 /* Icon@2x.png in Resources */,
+				C6D4757E14C6866F00D65E51 /* Icon-72.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +312,7 @@
 				C62764C114C5E90300074ACD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
