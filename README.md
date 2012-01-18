@@ -27,17 +27,14 @@ rotation rate, and text can all be customized.
 
 Usage
 -----
-Adding this control to your XCode project is straightforward :
-1.  Add the F3Swirly.h and F3Swirly.m files to your project
-2.  Add a new blank subview to the nib, sized and positioned to 
-    match what the bar gauge should look like.
-3.  In the properties inspector for this subview, change the
-    class to "F3Swirly"
-4.  Add an outlet to represent the control
-5.  Add thresholds to describe the color, number of segments,
-    textual label, etc. as needed.   See the demo code for
-    an example of how this is done.
-6.  Update your code to set the value property as appropriate.
+Adding this control to your XCode project is straightforward:
+
+1. Add the F3Swirly.h and F3Swirly.m files to your project
+2. Add a new blank subview to the nib, sized and positioned to match what the bar gauge should look like.
+3. In the properties inspector for this subview, change the class to "F3Swirly"
+4. Add an outlet to represent the control
+5. Add thresholds to describe the color, number of segments, textual label, etc. as needed.   See the demo code for an example of how this is done.
+6. Update your code to set the value property as appropriate.
 
 
 Tips
