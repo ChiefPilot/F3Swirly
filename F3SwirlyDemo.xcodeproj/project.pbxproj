@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C62764A314C5E90300074ACD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62764A214C5E90300074ACD /* UIKit.framework */; };
+		C62764A514C5E90300074ACD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62764A414C5E90300074ACD /* Foundation.framework */; };
+		C62764A714C5E90300074ACD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62764A614C5E90300074ACD /* CoreGraphics.framework */; };
+		C62764AD14C5E90300074ACD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C62764AB14C5E90300074ACD /* InfoPlist.strings */; };
+		C62764AF14C5E90300074ACD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C62764AE14C5E90300074ACD /* main.m */; };
+		C62764B314C5E90300074ACD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C62764B214C5E90300074ACD /* AppDelegate.m */; };
+		C62764B614C5E90300074ACD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C62764B514C5E90300074ACD /* ViewController.m */; };
+		C62764B914C5E90300074ACD /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C62764B714C5E90300074ACD /* ViewController_iPhone.xib */; };
+		C62764BC14C5E90300074ACD /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C62764BA14C5E90300074ACD /* ViewController_iPad.xib */; };
+		C62764C714C5E96600074ACD /* F3Swirly.m in Sources */ = {isa = PBXBuildFile; fileRef = C62764C614C5E96600074ACD /* F3Swirly.m */; };
+		C62764D314C5ED5B00074ACD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62764D214C5ED5B00074ACD /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C627649E14C5E90300074ACD /* F3SwirlyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = F3SwirlyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C62764A214C5E90300074ACD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C62764A414C5E90300074ACD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C62764A614C5E90300074ACD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C62764AA14C5E90300074ACD /* F3SwirlyDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "F3SwirlyDemo-Info.plist"; sourceTree = "<group>"; };
+		C62764AC14C5E90300074ACD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C62764AE14C5E90300074ACD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C62764B014C5E90300074ACD /* F3SwirlyDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "F3SwirlyDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C62764B114C5E90300074ACD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C62764B214C5E90300074ACD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C62764B414C5E90300074ACD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C62764B514C5E90300074ACD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C62764B814C5E90300074ACD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		C62764BB14C5E90300074ACD /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		C62764C514C5E96600074ACD /* F3Swirly.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = F3Swirly.h; sourceTree = "<group>"; };
+		C62764C614C5E96600074ACD /* F3Swirly.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = F3Swirly.m; sourceTree = "<group>"; };
+		C62764CC14C5ED3A00074ACD /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C62764D214C5ED5B00074ACD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C627649B14C5E90200074ACD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62764D314C5ED5B00074ACD /* QuartzCore.framework in Frameworks */,
+				C62764A314C5E90300074ACD /* UIKit.framework in Frameworks */,
+				C62764A514C5E90300074ACD /* Foundation.framework in Frameworks */,
+				C62764A714C5E90300074ACD /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C627649314C5E90200074ACD = {
+			isa = PBXGroup;
+			children = (
+				C62764D214C5ED5B00074ACD /* QuartzCore.framework */,
+				C62764CC14C5ED3A00074ACD /* CoreMotion.framework */,
+				C62764A814C5E90300074ACD /* F3SwirlyDemo */,
+				C62764A114C5E90300074ACD /* Frameworks */,
+				C627649F14C5E90300074ACD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C627649F14C5E90300074ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C627649E14C5E90300074ACD /* F3SwirlyDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C62764A114C5E90300074ACD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C62764A214C5E90300074ACD /* UIKit.framework */,
+				C62764A414C5E90300074ACD /* Foundation.framework */,
+				C62764A614C5E90300074ACD /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C62764A814C5E90300074ACD /* F3SwirlyDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C62764C514C5E96600074ACD /* F3Swirly.h */,
+				C62764C614C5E96600074ACD /* F3Swirly.m */,
+				C62764B114C5E90300074ACD /* AppDelegate.h */,
+				C62764B214C5E90300074ACD /* AppDelegate.m */,
+				C62764B414C5E90300074ACD /* ViewController.h */,
+				C62764B514C5E90300074ACD /* ViewController.m */,
+				C62764B714C5E90300074ACD /* ViewController_iPhone.xib */,
+				C62764BA14C5E90300074ACD /* ViewController_iPad.xib */,
+				C62764A914C5E90300074ACD /* Supporting Files */,
+			);
+			path = F3SwirlyDemo;
+			sourceTree = "<group>";
+		};
+		C62764A914C5E90300074ACD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C62764AA14C5E90300074ACD /* F3SwirlyDemo-Info.plist */,
+				C62764AB14C5E90300074ACD /* InfoPlist.strings */,
+				C62764AE14C5E90300074ACD /* main.m */,
+				C62764B014C5E90300074ACD /* F3SwirlyDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C627649D14C5E90200074ACD /* F3SwirlyDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C62764BF14C5E90300074ACD /* Build configuration list for PBXNativeTarget "F3SwirlyDemo" */;
+			buildPhases = (
+				C627649A14C5E90200074ACD /* Sources */,
+				C627649B14C5E90200074ACD /* Frameworks */,
+				C627649C14C5E90200074ACD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = F3SwirlyDemo;
+			productName = F3SwirlyDemo;
+			productReference = C627649E14C5E90300074ACD /* F3SwirlyDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C627649514C5E90200074ACD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C627649814C5E90200074ACD /* Build configuration list for PBXProject "F3SwirlyDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C627649314C5E90200074ACD;
+			productRefGroup = C627649F14C5E90300074ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C627649D14C5E90200074ACD /* F3SwirlyDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C627649C14C5E90200074ACD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62764AD14C5E90300074ACD /* InfoPlist.strings in Resources */,
+				C62764B914C5E90300074ACD /* ViewController_iPhone.xib in Resources */,
+				C62764BC14C5E90300074ACD /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C627649A14C5E90200074ACD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C62764AF14C5E90300074ACD /* main.m in Sources */,
+				C62764B314C5E90300074ACD /* AppDelegate.m in Sources */,
+				C62764B614C5E90300074ACD /* ViewController.m in Sources */,
+				C62764C714C5E96600074ACD /* F3Swirly.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C62764AB14C5E90300074ACD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62764AC14C5E90300074ACD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C62764B714C5E90300074ACD /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62764B814C5E90300074ACD /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		C62764BA14C5E90300074ACD /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C62764BB14C5E90300074ACD /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C62764BD14C5E90300074ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C62764BE14C5E90300074ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C62764C014C5E90300074ACD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F3SwirlyDemo/F3SwirlyDemo-Prefix.pch";
+				INFOPLIST_FILE = "F3SwirlyDemo/F3SwirlyDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C62764C114C5E90300074ACD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "F3SwirlyDemo/F3SwirlyDemo-Prefix.pch";
+				INFOPLIST_FILE = "F3SwirlyDemo/F3SwirlyDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C627649814C5E90200074ACD /* Build configuration list for PBXProject "F3SwirlyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62764BD14C5E90300074ACD /* Debug */,
+				C62764BE14C5E90300074ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C62764BF14C5E90300074ACD /* Build configuration list for PBXNativeTarget "F3SwirlyDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C62764C014C5E90300074ACD /* Debug */,
+				C62764C114C5E90300074ACD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C627649514C5E90200074ACD /* Project object */;
+}
