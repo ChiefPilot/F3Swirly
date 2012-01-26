@@ -155,17 +155,29 @@
 #pragma mark - Class Implementation
 //------------------------------------------------------------------------
 //------------------------------------------------------------------------
-//---------------|  F3Swirly class implementation  |------------------
+//-----------------|  F3Swirly class implementation  |--------------------
 //------------------------------------------------------------------------
 //------------------------------------------------------------------------
 
-//===[ Category for private methods ]=====================================
+//===[ Class extension for private stuff ]================================
 @interface F3Swirly()
-  -(void) setDefaults;
-  -(void) createLayers;
-  -(id) findThreshold:(double) a_flValue;
-  -(void) startSwirly:(int) a_iRpm;
-  -(void) stopSwirly;
+{
+  @private
+    int                       m_iCurrentRpm;        // Current RPM of swirly
+    CALayer                   *m_swirlyLayer;       // Layer containing the animated swirly
+    CABasicAnimation          *m_swirlyAnim,        // Swirly animation object (continuous)
+                              *m_transitionAnim;    // Transition animation object
+    F3SwirlyThreshold         *m_currentThreshold;  // Current threshold (value/color) object
+    F3SwirlyLayerDelegate     *m_layerDelegate;     // Layer delegate
+    NSMutableArray            *m_aThresholds;       // Array of threshold objects
+}
+
+// Private methods
+-(void) setDefaults;
+-(void) createLayers;
+-(id) findThreshold:(double) a_flValue;
+-(void) startSwirly:(int) a_iRpm;
+-(void) stopSwirly;
 @end
 
 

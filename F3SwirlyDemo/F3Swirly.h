@@ -46,14 +46,7 @@
     BOOL                      m_fRoundedSegments;   // true = segments have rounded ends
     CGFloat                   m_flValue,            // Current value being shown
                               m_flThickness;        // Thickness of swirly
-    int                       m_iSegments,          // Number of segments
-                              m_iCurrentRpm;        // Current RPM of swirly
-    CALayer                   *m_swirlyLayer;       // Layer containing the animated swirly
-    CABasicAnimation          *m_swirlyAnim,        // Swirly animation object (continuous)
-                              *m_transitionAnim;    // Transition animation object
-    F3SwirlyThreshold         *m_currentThreshold;  // Current threshold (value/color) object
-    F3SwirlyLayerDelegate     *m_layerDelegate;     // Layer delegate
-    NSMutableArray            *m_aThresholds;       // Array of threshold objects
+    int                       m_iSegments;          // Number of segments
 }
 
 // Properties
