@@ -11,9 +11,9 @@
 
 @interface ViewController : UIViewController
 
-@property (retain, nonatomic) IBOutlet F3Swirly *valueSwirly;
-@property (retain, nonatomic) IBOutlet UISlider *valueSlider;
-@property (retain, nonatomic) IBOutlet UILabel *valueLabel;
+@property (strong, nonatomic) IBOutlet F3Swirly *valueSwirly;
+@property (strong, nonatomic) IBOutlet UISlider *valueSlider;
+@property (strong, nonatomic) IBOutlet UILabel *valueLabel;
 
 - (IBAction)didChangeValue:(id)sender;
 

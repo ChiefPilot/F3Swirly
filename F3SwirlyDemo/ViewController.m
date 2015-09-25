@@ -93,13 +93,6 @@
 }
 
 
-- (void)dealloc 
-{
-  [valueSwirly release];
-  [valueSlider release];
-  [valueLabel release];
-  [super dealloc];
-}
 
 
 - (IBAction)didChangeValue:(id)sender 

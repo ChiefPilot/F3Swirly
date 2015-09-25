@@ -45,7 +45,7 @@ no text being shown.
 
 License
 -------
-Copyright (c) 2012 by Brad Benson
+Copyright (c) 2012-2015 by Brad Benson
 All rights reserved.
   
 Redistribution and use in source and binary forms, with or without 

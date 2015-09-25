@@ -41,13 +41,6 @@
 //------------------------------------------------------------------------
 //------------------------------------------------------------------------
 @interface F3Swirly : UILabel
-{
-  @private
-    BOOL                      m_fRoundedSegments;   // true = segments have rounded ends
-    CGFloat                   m_flValue,            // Current value being shown
-                              m_flThickness;        // Thickness of swirly
-    int                       m_iSegments;          // Number of segments
-}
 
 // Properties
 @property (readwrite, nonatomic) CGFloat  value;      // Current value
